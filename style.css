@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bowby One SC', cursive;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container_login{
+    height: 550px;
+    position: absolute;
+}
+.login_form{
+    width: 400px;
+    position: absolute;
+    background-color: #fff;
+    border: 5px solid #8f4790;
+    border-radius: 10px;
+    padding: 30px 60px;
+    top: 290px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+.login_form label, input, button{
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+}
+.login_form input{
+    height: 40px;
+    border: 2px solid #8f4790;
+    border-radius: 10px;
+    padding: 0 8px;
+}
+.login_form button{
+    background-color: #824283;
+    box-shadow: 1px 1px 2px #0000;
+    color: #fff;
+    border: none;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.login_form button:hover{
+    background-color: #8f4790;
+}
