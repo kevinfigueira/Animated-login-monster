@@ -14,6 +14,9 @@ body{
     height: 550px;
     position: absolute;
 }
+.container_login img{
+    width: 100%;
+}
 .login_form{
     width: 400px;
     position: absolute;
@@ -48,4 +51,12 @@ body{
 }
 .login_form button:hover{
     background-color: #8f4790;
+}
+/* === @Media === */
+@media (max-width: 320px) { 
+    .login_form{
+        width: 300px;
+        top: 250px;
+        padding: 30px 20px;
+    }
 }

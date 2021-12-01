@@ -27,7 +27,7 @@ body.addEventListener('mousemove', (m) => {
     
 })
 
-
+// === USER ===
 user.addEventListener('focus', () => {
     seguirPonteiroMouse = false;
 })
@@ -55,7 +55,7 @@ user.addEventListener('keyup', () => {
 
 
 
-
+// === PASSWORD ====
 password.addEventListener('focus', () => {
     seguirPonteiroMouse = false;
     let cont = 1;
@@ -83,5 +83,3 @@ password.addEventListener('blur', () => {
         }
     }, 50);
 })
-//console.log(window.innerWidth)
-//console.log(window.innerHeight)
